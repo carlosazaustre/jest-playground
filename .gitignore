@@ -3,3 +3,6 @@
 .coverage
 .idea
 *.log
+
+/config/*.json
+/config/index.js
