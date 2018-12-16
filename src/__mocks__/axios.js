@@ -1,5 +1,6 @@
-// Mocking functions from third-party libraries
+'use strict'
 
+// Mocking functions from third-party libraries
 function get (url) {
   return Promise.resolve({
     data: {
