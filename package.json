@@ -4,7 +4,9 @@
   "description": "Testing Node.js apps/modules with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/carlosazaustre/jest-playground/issues"
   },
-  "homepage": "https://github.com/carlosazaustre/jest-playground#readme"
+  "homepage": "https://github.com/carlosazaustre/jest-playground#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }
