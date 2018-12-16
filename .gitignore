@@ -4,5 +4,5 @@
 .idea
 *.log
 
-/config/*.json
-/config/index.js
+src/config/*.json
+src/config/index.js
